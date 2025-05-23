@@ -1,0 +1,81 @@
+body{
+    background-color: #ffffff;
+    margin: 0px;
+}
+#banner{
+    display: block;
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+#content{
+    padding: 20px;
+}
+p.ad_content{
+    font-size: 18pt;
+}
+.img_ct{
+    transition: 0.25s;
+    width: 100%;
+}
+.img_ct:hover{
+    transform: scale(1.05);
+}
+.khungsp
+{
+    width: 250px;
+    height: 360px;	
+    float: left;
+    margin-left: 60px;
+    margin-top: 40px;
+    transition: 0.25s;
+}
+.khungsp:hover{
+    transform: scale(1.05);
+}
+.card {
+    width: 250px;
+    height: 360px;
+    margin: 8px;
+    padding: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+	border: 1px solid #696969;
+	float: left; 
+    margin-bottom: 10px;
+}
+.hinhsp{
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+p.giaban{
+    font-size: 15pt;
+    color: #212121;
+}
+
+table{
+    text-align: center;
+    border: solid;
+    width: 1000px;
+}
+
+footer{
+    margin: 50px;
+    clear: both;
+}
+
+.ThongBao{
+    color: #20d462;
+    background-color: #bafcd2;
+    font-size: 15pt;
+    padding: 5px;
+}
+.ThongBaoLoi{
+    color: #f32727;
+    background-color: #ffadad;
+    font-size: 15pt;
+    padding: 5px;
+}

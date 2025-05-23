@@ -1,0 +1,29 @@
+body{
+    background-color: #ffffff;
+    margin: 0px;
+}
+#banner{
+    display: block;
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+#content{
+    padding: 20px;
+}
+footer{
+    clear: both;
+}
+.ThongBao{
+    color: #20d462;
+    background-color: #bafcd2;
+    font-size: 15pt;
+    padding: 5px;
+}
+.ThongBaoLoi{
+    color: #f32727;
+    background-color: #ffadad;
+    font-size: 15pt;
+    padding: 5px;
+}
